@@ -3,17 +3,25 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Yanzi&#39;s blog</title>
+  <title>The SVG Canvas, Coordinate System, And Viewport | Yanzi&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="hello world">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Yanzi's blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
+
+今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The SVG Canvas, Coordinate System, And Viewport">
+<meta property="og:url" content="http://yoursite.com/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/index.html">
 <meta property="og:site_name" content="Yanzi's blog">
-<meta property="og:description" content="hello world">
+<meta property="og:description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
+
+今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
+<meta property="og:image" content="http://www.vanseodesign.com/blog/wp-content/uploads/2015/03/wpid-svg-coordinate-system.png">
+<meta property="og:updated_time" content="2015-05-27T16:15:25.660Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yanzi's blog">
-<meta name="twitter:description" content="hello world">
+<meta name="twitter:title" content="The SVG Canvas, Coordinate System, And Viewport">
+<meta name="twitter:description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
+
+今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
   
     <link rel="alternative" href="/atom.xml" title="Yanzi&#39;s blog" type="application/atom+xml">
   
@@ -61,9 +69,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-The SVG Canvas, Coordinate System, And Viewport译文" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-The SVG Canvas, Coordinate System, And Viewport译文" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/" class="article-date">
   <time datetime="2015-05-27T16:08:29.000Z" itemprop="datePublished">2015-05-28</time>
@@ -80,8 +86,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/">The SVG Canvas, Coordinate System, And Viewport</a>
+    <h1 class="article-title" itemprop="name">
+      The SVG Canvas, Coordinate System, And Viewport
     </h1>
   
 
@@ -177,56 +183,20 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/05/28/hello-world/" class="article-date">
-  <time datetime="2015-05-27T16:01:30.297Z" itemprop="datePublished">2015-05-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/05/28/hello-world/">Hello World</a>
-    </h1>
+    <a href="/2015/05/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/05/28/hello-world/" data-id="cia6y1hiv0001k8lbyifwvn0m" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
 
-
-  
-  
 </section>
         
       </div>
