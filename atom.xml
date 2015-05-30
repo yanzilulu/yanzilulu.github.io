@@ -1,101 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Yanzi's blog]]></title>
+  <subtitle><![CDATA[hello world]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-05-27T16:15:25.660Z</updated>
+  <id>http://yoursite.com/</id>
   
-  <title>The SVG Canvas, Coordinate System, And Viewport | Yanzi&#39;s blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
-
-今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
-<meta property="og:type" content="article">
-<meta property="og:title" content="The SVG Canvas, Coordinate System, And Viewport">
-<meta property="og:url" content="http://yoursite.com/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/index.html">
-<meta property="og:site_name" content="Yanzi's blog">
-<meta property="og:description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
-
-今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
-<meta property="og:image" content="http://www.vanseodesign.com/blog/wp-content/uploads/2015/03/wpid-svg-coordinate-system.png">
-<meta property="og:updated_time" content="2015-05-27T16:15:25.660Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The SVG Canvas, Coordinate System, And Viewport">
-<meta name="twitter:description" content="SVG画布，坐标系统，视窗当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。
-
-今年年初，我开始写SVG系列的文章，介绍了SVG的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的">
+  <author>
+    <name><![CDATA[yanzilulu]]></name>
+    <email><![CDATA[helloshaoyan@gmail.com]]></email>
+  </author>
   
-    <link rel="alternative" href="/atom.xml" title="Yanzi&#39;s blog" type="application/atom+xml">
+  <generator uri="http://hexo.io/">Hexo</generator>
   
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  
-</head>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="overlay"></div>
-  <div id="header-outer" class="outer">
-    <div id="profile_img">
-      <img id="circle_img" src="holder.js/150x150" />
-    </div>
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Yanzi&#39;s blog</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">hello world</a>
-        </h2>
-      
-    </div>
-    <div id="header-menu">
-      <nav id="main-nav">
-        <ul>
-        
-          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
-        
-          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
-        
-          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
-        
-        
-          <li><a href="/atom.xml"><i class="fa fa-rss %> icon-setting"></i></a></li>
-        
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-The SVG Canvas, Coordinate System, And Viewport译文" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/" class="article-date">
-  <time datetime="2015-05-27T16:08:29.000Z" itemprop="datePublished">2015-05-28</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/blog/">blog</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      The SVG Canvas, Coordinate System, And Viewport
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="SVG画布，坐标系统，视窗">SVG画布，坐标系统，视窗</h1><p>当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。</p>
+  <entry>
+    <title><![CDATA[The SVG Canvas, Coordinate System, And Viewport]]></title>
+    <link href="http://yoursite.com/2015/05/28/The%20SVG%20Canvas,%20Coordinate%20System,%20And%20Viewport%E8%AF%91%E6%96%87/"/>
+    <id>http://yoursite.com/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/</id>
+    <published>2015-05-27T16:08:29.000Z</published>
+    <updated>2015-05-27T16:15:25.660Z</updated>
+    <content type="html"><![CDATA[<h1 id="SVG画布，坐标系统，视窗">SVG画布，坐标系统，视窗</h1><p>当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有弄明白了它们之间的关系，才知道如何去控制它们。</p>
 <p><img src="http://www.vanseodesign.com/blog/wp-content/uploads/2015/03/wpid-svg-coordinate-system.png" alt=""></p>
 <p>今年年初，我开始写SVG系列的文章，介绍了<a href="http://www.vanseodesign.com/web-design/svg-basics/" target="_blank" rel="external">SVG</a>的一些基本的使用。我说过我会在这个系列结束的时候做一下总结，来总结我们这一年来学习的内容。今天先来写第一个总结。</p>
 <p>下面这是之前的文章，看一下你有没有漏掉了哪一篇（带<a href="http://www.w3cplus.com/" target="_blank" rel="external">w3cplus</a>上对应文章的翻译链接）。</p>
@@ -171,79 +96,37 @@
 <h2 id="Closing_Thoughts">Closing Thoughts</h2><h2 id="结束语">结束语</h2><p>今天我就先讲到这里。可能我没有讲到太多SVG的新内容，但是我想要先理解好概念之后，再深入研究。</p>
 <p>这个帮助我理解概念的比喻是：在一块无穷大的画布前有一堵无穷大的墙。我们通过墙上的一扇窗看到SVG画布上的内容，这扇窗就是SVG视窗，我们可以控制这扇窗的大小。</p>
 <p>下周我会继续写文章，主要讲一两个属性，我们可以使用它们来四处移动画布，还可以决定画布的哪一部分或者是画布的多少内容要显示在视窗中。我会看看<code>viewBox</code>属性，然后接下来的星期我会聊聊<code>preserveAspectRatio</code>属性。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/" data-id="ciaar21j30000bolbrrbgw6lr" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SVG，翻译/">SVG，翻译</a></li></ul>
-
-    </footer>
-  </div>
-  
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="SVG画布，坐标系统，视窗">SVG画布，坐标系统，视窗</h1><p>当你在屏幕上看SVG图像时，你是通过SVG视窗来看到画布的，所以其实你只看到了画布的一部分。画布和视窗是既相互独立又相互联系的概念，它们之间的关系很容易混淆，导致有时会有预料之外的结果。你只有]]>
+    </summary>
     
-<nav id="article-nav">
-  
-  
-    <a href="/2015/05/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-  
-  <section id="comments">
-    <!-- 多说评论框 start -->
-    <div class="ds-thread" data-thread-key="post-The SVG Canvas, Coordinate System, And Viewport译文" data-title="The SVG Canvas, Coordinate System, And Viewport" data-url="http://yoursite.com/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/"></div>
-    <!-- 多说评论框 end -->
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {short_name:'yanzilulu'};
-      (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
-         || document.getElementsByTagName('body')[0]).appendChild(ds);
-      })();
-      </script>
-    <!-- 多说公共JS代码 end -->
-  </section>
-  
-
-
-<section id="comment"></section>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2015 yanzilulu<br>
-      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
-    </div>
-  </div>
-</footer>
-    </div>
+      <category term="SVG，翻译" scheme="http://yoursite.com/tags/SVG%EF%BC%8C%E7%BF%BB%E8%AF%91/"/>
     
+      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
     
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="//imsky.github.io/holder/holder.js"></script>
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-
-<script src="/js/script.js" type="text/javascript"></script>
-
-  </div>
-</body>
-</html>
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2015/05/28/hello-world/"/>
+    <id>http://yoursite.com/2015/05/28/hello-world/</id>
+    <published>2015-05-27T16:01:30.297Z</published>
+    <updated>2015-05-27T13:26:54.149Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
