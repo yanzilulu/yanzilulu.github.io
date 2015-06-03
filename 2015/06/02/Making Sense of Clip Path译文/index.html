@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Making Sense of Clip Path译文 | Yanzi&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="理解Clip PathPublished on Apr 14 BY Drew Minns
+在教学过程中的一个很重要的部分是，学生们通常都有很多非常新鲜的想法。而我们则倾向于思考要如何完成一项任务，也因此错过了很多可用的而且很酷的新技术。
+看看我们训练营第一个星期的项目，是一个简单的单页网站，用于演示对HTML和CSS的理解：使用语义化的标记语言和CSS来实现样式。我们的其中一个学生，Heather">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Making Sense of Clip Path译文">
+<meta property="og:url" content="http://yoursite.com/2015/06/02/Making Sense of Clip Path译文/index.html">
+<meta property="og:site_name" content="Yanzi's blog">
+<meta property="og:description" content="理解Clip PathPublished on Apr 14 BY Drew Minns
+在教学过程中的一个很重要的部分是，学生们通常都有很多非常新鲜的想法。而我们则倾向于思考要如何完成一项任务，也因此错过了很多可用的而且很酷的新技术。
+看看我们训练营第一个星期的项目，是一个简单的单页网站，用于演示对HTML和CSS的理解：使用语义化的标记语言和CSS来实现样式。我们的其中一个学生，Heather">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/1037/1*QAB2aracewqbOH03AK7QgA.jpeg">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*HeJxe0D293tIFTCyHAL4lQ.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*11a90XLxNmMUrDf9G2fWFg.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*TadaOOnZnV6kJYYL84QL4w.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*hKU0Ktr6nLKvZyq-SaU2Iw.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*hFi3Eum8o-4L4JV4cGiuyw.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/800/1*8mdehgQyTKb5zCdejyiYVg.png">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/736/1*JUTLq1VByyv7UsvKhNuCww.gif">
+<meta property="og:image" content="https://d262ilb51hltx0.cloudfront.net/max/993/1*c5c9qku4G-Q46SsSXs8zWw.gif">
+<meta property="og:updated_time" content="2015-06-03T04:46:08.703Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Making Sense of Clip Path译文">
+<meta name="twitter:description" content="理解Clip PathPublished on Apr 14 BY Drew Minns
+在教学过程中的一个很重要的部分是，学生们通常都有很多非常新鲜的想法。而我们则倾向于思考要如何完成一项任务，也因此错过了很多可用的而且很酷的新技术。
+看看我们训练营第一个星期的项目，是一个简单的单页网站，用于演示对HTML和CSS的理解：使用语义化的标记语言和CSS来实现样式。我们的其中一个学生，Heather">
+  
+  
+    <link rel="shortcut icon" href="../img/Lu.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?9bbd8d38d799e71ce56b28904eb38678";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="overlay"></div>
+  <div id="header-outer" class="outer">
+    <div id="profile_img">
+      <img id="circle_img" src="../img/yanzilulu.jpg" />
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Yanzi&#39;s blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">hello world</a>
+        </h2>
+      
+    </div>
+    <div id="header-menu">
+      <nav id="main-nav">
+        <ul>
+        
+          <li><a href="/"><i class="fa fa-home icon-setting"></i></a></li>
+        
+          <li><a href="/archives"><i class="fa fa-archive icon-setting"></i></a></li>
+        
+          <li><a href="/about"><i class="fa fa-user icon-setting"></i></a></li>
+        
+          <li><a href="/atom.xml"><i class="fa undefined icon-setting"></i></a></li>
+        
+        
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Making Sense of Clip Path译文" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/02/Making Sense of Clip Path译文/" class="article-date">
+  <time datetime="2015-06-01T16:08:29.000Z" itemprop="datePublished">2015-06-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/blog/">blog</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Making Sense of Clip Path译文
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="理解Clip_Path">理解Clip Path</h1><p><em>Published on Apr 14 BY <a href="https://medium.com/@drewisthe" target="_blank" rel="external">Drew Minns</a></em></p>
+<p>在教学过程中的一个很重要的部分是，学生们通常都有很多非常新鲜的想法。而我们则倾向于思考要如何完成一项任务，也因此错过了很多可用的而且很酷的新技术。</p>
+<p>看看我们训练营第一个星期的项目，是一个简单的单页网站，用于演示对HTML和CSS的理解：使用语义化的标记语言和CSS来实现样式。我们的其中一个学生，<a href="http://heatherbanks.ca/" target="_blank" rel="external">Heather Banks</a>，她曾经作为我的学生part-time参与过HTML/CSS课程，想要复制一个在<a href="http://www.squarespace.com/about/values" target="_blank" rel="external">Squarespace</a>上看到的效果，周围的div元素似乎有被剪裁（如图）。</p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/1037/1*QAB2aracewqbOH03AK7QgA.jpeg" alt=""></p>
+<p>因为我知道以她以往的经验，网站上的HTML和CSS完全在她的技术水平之内，于是我帮助她完成了这个效果。将nav导航被剪裁的过程显示出来是不容易的，我的第一反应是创建一个相匹配的背景被部分裁剪的图像，然后把它设置为一个after元素。问题是，它的响应被固定了，而且并不完全可控制。</p>
+<h2 id="关于CSS属性_clip-path">关于CSS属性 <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath" target="_blank" rel="external"><code>clip-path</code></a></h2><p>这个小家伙还是工作草案的一部分，这个草案提供了通过掩蔽和剪裁来隐藏部分元素的工具。但是 <code>clip-path</code> 还没有得到所有主流浏览器广泛支持（包括Firefox和IE），只是一个用于在webkit浏览器上完成时尚效果的很棒的小工具。</p>
+<p><em>注意，为了在现代浏览器中使用，我们需要使用<code>-webkit</code>前缀。</em></p>
+<p>它的工作方式是提供一系列的X值和Y值来创建路径。当使用这些值创建一条完整路径时，就会把图像按照路径内部的尺寸进行裁剪。</p>
+<p>我们可以创建圆形、椭圆、多边形等许许多多不同的形状，创造力是唯一的限制。</p>
+<h3 id="一个简单的三角形剪裁">一个简单的三角形剪裁</h3><p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*HeJxe0D293tIFTCyHAL4lQ.png" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/emeVLz" target="_blank" rel="external">codepen</a></em></p>
+<p>上面的效果是通过简单地使用一个应用了clip-path属性的元素来完成的。</p>
+<pre><code><span class="class">.clipClass</span> <span class="rules">{
+  <span class="rule"><span class="attribute">-webkit-clip-path</span>:<span class="value"> <span class="function">polygon</span>(<span class="number">0</span> <span class="number">100%</span>, <span class="number">50%</span> <span class="number">0</span>, <span class="number">100%</span> <span class="number">100%</span>)</span></span>;
+}</span>
+</code></pre><h2 id="哇，让我们来逐个分析一下">哇，让我们来逐个分析一下</h2><p>首先，和位置属性非常相像，我们需要考虑X和Y的值。<code>X:0</code> 以及 <code>Y:0</code> 表示从元素的左上角开始，并从那里移动。 <code>X:100%</code> 表示元素右边， <code>Y:100%</code> 表示元素的底部。</p>
+<p>Got it~所以，上面创建的路径，它实际上创建了如下的点：</p>
+<pre><code><span class="string">x:</span> <span class="number">0</span>, <span class="string">y:</span><span class="number">100</span>%
+<span class="string">x:</span> <span class="number">50</span>%, <span class="string">y:</span> <span class="number">0</span>
+<span class="string">x:</span> <span class="number">100</span>%, <span class="string">y:</span> <span class="number">100</span>%
+</code></pre><p>这条简单的路径从左下角的坐标点开始，水平移动到50%的位置，然后垂直向上到达顶部的坐标点，接着水平移动到100%的位置，最后垂直向下回到底部，到达第三个坐标点。这样子用三个点就完成了一个三角形！</p>
+<p>所以边界之外的所有东西都会被直接剪裁，无法显示。而元素本身仍然保持其尺寸，只是它的表示层改变了。</p>
+<h2 id="形状">形状</h2><p>在上面的示例中，我们使用了一个多边形来创建形状，然后通过多组用逗号分隔的X和Y的值来定义路径。但是，我们也可以通过取不同的图形函数来创建不同的形状。</p>
+<h3 id="圆形">圆形</h3><p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*11a90XLxNmMUrDf9G2fWFg.png" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/azVYmq" target="_blank" rel="external">codepen</a></em></p>
+<p>要创建圆形，我们需要在圆形中输入三个值。圆心的<strong>x轴</strong>和<strong>y轴</strong>坐标，以及圆的<strong>半径</strong>。先定义圆的半径，再使用关键词‘<strong>at</strong>’来定义圆心的x和y坐标。</p>
+<pre><code><span class="class">.clipClass</span> <span class="rules">{
+  <span class="rule"><span class="attribute">-webkit-clip-path</span>:<span class="value"> <span class="function">circle</span>(<span class="number">50%</span> at <span class="number">50%</span> <span class="number">50%</span>)</span></span>;
+}</span>
+</code></pre><h3 id="椭圆">椭圆</h3><p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*TadaOOnZnV6kJYYL84QL4w.png" alt=""></p>
+<p><em>View this code on <a href="http://codepen.io/drewminns/pen/qEVoaK" target="_blank" rel="external">codepen</a></em></p>
+<p>很多时候你需要的并不只是一个简单的圆，还有椭圆。所以来看看椭圆形。</p>
+<p>为了省略，只需要提供四个值。椭圆的x轴半径和y轴半径（或形状），后面跟一个‘at’关键字，用于分开另外一组用于定义椭圆位置的x和y坐标。</p>
+<pre><code><span class="class">.clipClass</span> <span class="rules">{
+  <span class="rule"><span class="attribute">-webkit-clip-path</span>:<span class="value"> <span class="function">ellipse</span>(<span class="number">30%</span> <span class="number">20%</span> at <span class="number">50%</span> <span class="number">50%</span>)</span></span>;
+}</span>
+</code></pre><h3 id="Inset">Inset</h3><p>（<em>在老版本的Chrome中可能有不少错误</em>）</p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*hKU0Ktr6nLKvZyq-SaU2Iw.png" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/myqxrg" target="_blank" rel="external">codepen</a></em></p>
+<p>因为多边形边缘锐利，所以它可能不是你想要的东西，你想创建的是圆角矩形，所以我们来看看Inset的值。Inset使用四个值（对应“<strong>上 右 下 左</strong>”的顺序）来设置<strong>圆角半径</strong>。</p>
+<pre><code><span class="class">.clipClass</span> <span class="rules">{
+  <span class="rule"><span class="attribute">-webkit-clip-path</span>:<span class="value"> <span class="function">inset</span>(<span class="number">25%</span> <span class="number">0</span> <span class="number">25%</span> <span class="number">0</span> round <span class="number">0</span> <span class="number">25%</span> <span class="number">0</span> <span class="number">25%</span>)</span></span>;
+}</span>
+</code></pre><p>上面的各个值分别对应：</p>
+<pre><code><span class="function">inset</span>(&lt;<span class="attribute">top</span>&gt; &lt;<span class="attribute">right</span>&gt; &lt;<span class="attribute">bottom</span>&gt; &lt;<span class="attribute">left</span>&gt; round &lt;<span class="attribute">top</span>-radius&gt; &lt;<span class="attribute">right</span>-radius&gt; &lt;<span class="attribute">bottom</span>-radius&gt; &lt;<span class="attribute">left</span>-radius&gt;)
+</code></pre><p><strong>哇，挺混乱的！</strong>不过有个好消息！它有简写版：</p>
+<pre><code><span class="class">.clipClass</span> <span class="rules">{
+  <span class="rule"><span class="attribute">-webkit-clip-path</span>:<span class="value"> <span class="function">inset</span>(<span class="number">25%</span> <span class="number">0</span> round <span class="number">0</span> <span class="number">25%</span>)</span></span>;
+}</span>
+</code></pre><h2 id="快速参考">快速参考</h2><ul>
+<li><strong>Circle:</strong> <em>circle(radius at x-axis y-axis)</em></li>
+<li><strong>Ellipse:</strong> <em>ellipse(x-rad y-rad at x-axis y-axis)</em></li>
+<li><strong>Polygon:</strong> <em>polygon(x-axis y-axis, x-axis y-axis, … )</em></li>
+<li><strong>Inset:</strong> <em>inset(top right bottom left round top-radius right-radius bottom-radius left-radius)</em></li>
+</ul>
+<h2 id="创建形状">创建形状</h2><p>因为圆形和圆角形状被限制了只能有几个参数值，所以多边形是我们创建复杂形状的最好选择。多边形有定义多个点的能力，有助于我们以各种方式来裁剪元素。</p>
+<h3 id="漫画文本框">漫画文本框</h3><p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*hFi3Eum8o-4L4JV4cGiuyw.png" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/WbXzbb" target="_blank" rel="external">codepen</a></em></p>
+<pre><code>.clipClass {
+  -webkit-<span class="keyword">clip</span>-path: polygon(<span class="number">0</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">75</span><span class="variable">%,</span> <span class="number">75</span>% <span class="number">75</span><span class="variable">%,</span> <span class="number">75</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">50</span>% <span class="number">75</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">75</span><span class="variable">%)</span>;
+}
+</code></pre><h3 id="五角星">五角星</h3><p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*8mdehgQyTKb5zCdejyiYVg.png" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/zxPWxd" target="_blank" rel="external">codepen</a></em></p>
+<pre><code>.clipClass {
+  -webkit-<span class="keyword">clip</span>-path: polygon(<span class="number">50</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">63</span>% <span class="number">38</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">38</span><span class="variable">%,</span> <span class="number">69</span>% <span class="number">59</span><span class="variable">%,</span> <span class="number">82</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">50</span>% <span class="number">75</span><span class="variable">%,</span> <span class="number">18</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">31</span>% <span class="number">59</span><span class="variable">%,</span> <span class="number">0</span> <span class="number">38</span><span class="variable">%,</span> <span class="number">37</span>% <span class="number">38</span><span class="variable">%)</span>;
+}
+</code></pre><h2 id="动画">动画</h2><p>所以，既然我们已经对各种形状以及如何创建形状有所掌握，那我们如何把它们用于创建效果呢？</p>
+<p>我们可以给形状应用一个hover，并用过渡属性来创建平滑的效果。但是我们需要记住，我们创建的初始默认状态，必须同所有的hover状态都使用相同的坐标系。</p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/736/1*JUTLq1VByyv7UsvKhNuCww.gif" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/VYrXvG" target="_blank" rel="external">codepen</a></em></p>
+<pre><code>.animateClass {
+  -webkit-<span class="keyword">clip</span>-path: polygon(<span class="number">20</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">50</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">80</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">50</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">80</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">50</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">0</span>, <span class="number">80</span>% <span class="number">0</span>, <span class="number">50</span>% <span class="number">0</span>);
+}
+.animateClass:hover {
+  -webkit-<span class="keyword">clip</span>-path: polygon(<span class="number">50</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">20</span><span class="variable">%,</span> <span class="number">30</span>% <span class="number">50</span><span class="variable">%,</span> <span class="number">0</span>% <span class="number">80</span><span class="variable">%,</span> <span class="number">20</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">50</span>% <span class="number">70</span><span class="variable">%,</span> <span class="number">80</span>% <span class="number">100</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">80</span><span class="variable">%,</span> <span class="number">70</span>% <span class="number">50</span><span class="variable">%,</span> <span class="number">100</span>% <span class="number">20</span><span class="variable">%,</span> <span class="number">80</span>% <span class="number">0</span><span class="variable">%,</span> <span class="number">50</span>% <span class="number">30</span><span class="variable">%)</span>;
+}
+</code></pre><h2 id="在production中使用它">在production中使用它</h2><p>因为目前对clip-path形状的支持还仅局限于webkit内核的浏览器，所以在转移到Firefox以及IE的时候有明显的局限性。虽然Firefox还有其他的选项，比如<a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Clipping_and_masking" target="_blank" rel="external">SVG掩蔽</a>，但是两种状态之间的过渡在一些电脑上可能没办法实现。</p>
+<p>总而言之，如果你想探讨重现某些效果，Chrome和其他的webkit浏览器，比如Safari都是广泛支持的。</p>
+<h2 id="回到原来的任务">回到原来的任务</h2><p>因为试图重建Squarespace导航的效果，把这些东西都给拖出来了。通过采用定位的方法，把一个元素覆盖在另一个元素之上，然后使用clip-path来掩蔽图像，我们现在只是简单地展示背景图像，没有使用任何花哨的图片替换技术。</p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/993/1*c5c9qku4G-Q46SsSXs8zWw.gif" alt=""></p>
+<p><em>View the code on <a href="http://codepen.io/drewminns/pen/vEZOeq" target="_blank" rel="external">codepen</a></em></p>
+<p>我也不了解你，但是期待以后有越来越多的几何形状。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/02/Making Sense of Clip Path译文/" data-id="ciag9v0wd00001klbo3xrjinz" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SVG/">SVG</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/翻译/">翻译</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/05/28/The SVG Canvas, Coordinate System, And Viewport译文/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">The SVG Canvas, Coordinate System, And Viewport译文</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+  
+  <section id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="post-Making Sense of Clip Path译文" data-title="Making Sense of Clip Path译文" data-url="http://yoursite.com/2015/06/02/Making Sense of Clip Path译文/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'yanzilulu'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  </section>
+  
+
+
+<section id="comment"></section>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 yanzilulu<br>
+      <a href="https://github.com/ken8203/hexo-theme-alberta" target="_blank">Alberta</a> by <a href="http://jaychung.tw" target="_blank">jaychung</a>. Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. Thank <a href="http://subtlepatterns.com/" target="_blank">Subtlepatterns</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//imsky.github.io/holder/holder.js"></script>
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
