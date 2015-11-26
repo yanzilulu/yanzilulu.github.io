@@ -2,23 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/2015/08/06/hello-world/</loc>
-    <lastmod>2015-08-06T14:39:18.401Z</lastmod>
+    <loc>http://yoursite.com/2015/11/26/hello-world/</loc>
+    <lastmod>2015-11-26T01:24:07.671Z</lastmod>
   </url>
   
   <url>
     <loc>http://yoursite.com/about/index.html</loc>
     <lastmod>2015-08-06T13:38:13.892Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/06/02/Making%20Sense%20of%20Clip%20Path%E8%AF%91%E6%96%87/</loc>
-    <lastmod>2015-06-03T04:46:08.703Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/05/28/The%20SVG%20Canvas,%20Coordinate%20System,%20And%20Viewport%E8%AF%91%E6%96%87/</loc>
-    <lastmod>2015-06-03T04:44:00.352Z</lastmod>
   </url>
   
 </urlset>
