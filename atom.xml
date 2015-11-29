@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hello world]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-28T03:29:04.781Z</updated>
+  <updated>2015-11-29T06:08:15.102Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[厚重的纸巾]]></title>
+    <link href="http://yoursite.com/2015/11/29/catch%20cold/"/>
+    <id>http://yoursite.com/2015/11/29/catch cold/</id>
+    <published>2015-11-29T06:06:00.000Z</published>
+    <updated>2015-11-29T06:08:15.102Z</updated>
+    <content type="html"><![CDATA[<h2 id="起因">起因</h2><blockquote>
+<p>这几天有点小感冒，就无聊扯淡。</p>
+</blockquote>
+<p>因为感冒了老流鼻涕，简直涕泗横流【喂这形容太过了╭(╯^╰)╮</p>
+<p>总之就是，感冒了。于是就需要随身带纸巾，擦鼻涕。擦完纸巾往垃圾桶一扔，一扔一个准，顺畅，愉快，欢呼。【至于为什么，需要从物理学角度分析一下<em>(:зゝ∠)</em></p>
+<p>所以厚重的纸巾，就是，擦完鼻涕的纸巾。</p>
+<p>鼻涕太重，哼完之后感觉整个人都变轻了，今天该减的肥都不需要减了。</p>
+<p>刚才回宿舍还发现了自己有几包999，鸡冻 狂喜 旋转 跳跃…………</p>
+<p>哈哈哈哈哈哈哈哈。放个薛良辰</p>
+<p><img src="http://7xjbmk.com1.z0.glb.clouddn.com/hello/薛之谦.gif" alt=""></p>
+<p>每次天气转凉就容易感冒，然后就附带咳嗽，偶尔（经常）再带个发烧。不过本身没有鼻炎，所以感冒也不会严重。据鼻炎的同学描述，一天用完一包200抽的纸巾是妥妥的，这酸爽。</p>
+<hr>
+<p>【end】</p>
+<p>以上，天气转冷，注意保暖。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="起因">起因</h2><blockquote>
+<p>这几天有点小感冒，就无聊扯淡。</p>
+</blockquote>
+<p>因为感冒了老流鼻涕，简直涕泗横流【喂这形容太过了╭(╯^╰)╮</p>
+<p>总之就是，感冒了。于是就需要随身带纸巾，擦鼻涕。擦完纸巾往]]>
+    </summary>
+    
+      <category term="胡言乱语" scheme="http://yoursite.com/tags/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[机芯的破案经过]]></title>
