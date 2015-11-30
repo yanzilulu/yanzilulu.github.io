@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hello world]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-29T15:18:38.757Z</updated>
+  <updated>2015-11-30T13:59:41.041Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[想对你说]]></title>
+    <link href="http://yoursite.com/2015/11/30/say%20something/"/>
+    <id>http://yoursite.com/2015/11/30/say something/</id>
+    <published>2015-11-30T15:06:00.000Z</published>
+    <updated>2015-11-30T13:59:41.041Z</updated>
+    <content type="html"><![CDATA[<h2 id="为什么是这个标题呢">为什么是这个标题呢</h2><blockquote>
+<p>并没有什么想对你说的，只是因为今晚唱歌，然后《想对你说》这歌唱不下去而已。大概也算是陪我走过一段疗伤时间的歌。【还跟小伙伴说，杨宗纬的歌我是全部听了的╭(╯^╰)╮</p>
+</blockquote>
+<h2 id="起因">起因</h2><p>老邓的同学到广州玩，还带了家属，分分钟秀恩爱虐狗，还约了去唱歌。老邓为了避免以及受了一万点伤害的自己继续受伤，就拉上我这只单身狗一起去当电灯泡，平摊伤害。</p>
+<p>我是个见义勇为，喜欢行侠仗义的人（其实就是闲得慌），就答应了。</p>
+<h2 id="过程">过程</h2><p>吐槽的一点是K房比较旧了，很多新歌都没有，连老薛在网易云音乐已经评论破2W的《演员》都没有，我就默默…….</p>
+<p>过程也就是女人们喊啊喊，自助餐东西挺多，只是不够好吃<em>(:зゝ∠)</em>寿司不好吃 ，烧烤太闲blabla，我大概吃了5支冰激凌(¯﹃¯)嗯。</p>
+<p>最后一首《活着》结束，没来得及开喊《五环之歌》，就被小哥通知时间到了。</p>
+<p>不过洗脑啊洗脑啊… 慌慌张张<del>匆匆忙忙</del>不卑不亢<del>不慌不忙</del>一路上脑子循环，只能听个杨宗纬冷静一下= =</p>
+<p>今天下午的《暗杀》还看了一半，补上去。</p>
+<hr>
+<p>【end】</p>
+<p>以上，明天又要滚离广州了，和小伙伴的相聚一次一次减少。</p>
+<p>遗憾今晚没有唱好妹妹。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="为什么是这个标题呢">为什么是这个标题呢</h2><blockquote>
+<p>并没有什么想对你说的，只是因为今晚唱歌，然后《想对你说》这歌唱不下去而已。大概也算是陪我走过一段疗伤时间的歌。【还跟小伙伴说，杨宗纬的歌我是全部听了的╭(╯^╰)╮</p>
+</bl]]>
+    </summary>
+    
+      <category term="胡言乱语" scheme="http://yoursite.com/tags/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我回来了]]></title>
