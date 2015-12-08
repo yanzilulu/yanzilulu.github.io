@@ -4,7 +4,7 @@
   <subtitle><![CDATA[hello world]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-30T13:59:41.041Z</updated>
+  <updated>2015-12-08T15:24:22.045Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[你好呀]]></title>
+    <link href="http://yoursite.com/2015/12/08/nothing/"/>
+    <id>http://yoursite.com/2015/12/08/nothing/</id>
+    <published>2015-12-08T15:06:00.000Z</published>
+    <updated>2015-12-08T15:24:22.045Z</updated>
+    <content type="html"><![CDATA[<h2 id="起因">起因</h2><blockquote>
+<p>就是放图</p>
+</blockquote>
+<p>大概是心情不好就思考了一下人生，发现其实大家爱的都是自己啊。</p>
+<p>付出多少，期望得到多少。</p>
+<p>就像你爱我，可是有一天你不爱我了，我就会追问你为什么。</p>
+<p>其实根本没什么为什么，就是我也希望得到同样的爱，得不到，那就走吧。</p>
+<p>不擅长讲人生，一提大道理就想笑。放几个图开心一下吧。</p>
+<p><img src="http://7xjbmk.com1.z0.glb.clouddn.com/hello/要怎样1.gif" alt=""></p>
+<p><img src="http://7xjbmk.com1.z0.glb.clouddn.com/hello/要怎样2.gif" alt=""></p>
+<p><img src="http://7xjbmk.com1.z0.glb.clouddn.com/hello/要怎样3.gif" alt=""></p>
+<hr>
+<p>【end】</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="起因">起因</h2><blockquote>
+<p>就是放图</p>
+</blockquote>
+<p>大概是心情不好就思考了一下人生，发现其实大家爱的都是自己啊。</p>
+<p>付出多少，期望得到多少。</p>
+<p>就像你爱我，可是有一天你不爱我了，我就会追]]>
+    </summary>
+    
+      <category term="胡言乱语" scheme="http://yoursite.com/tags/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[想对你说]]></title>
